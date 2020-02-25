@@ -9,6 +9,6 @@ public interface AlumnoDAO {
 	public Alumno buscar(int id);
 	public void eliminar(int id);
 	
-	//memo es el pro
+	//hola mundo
 	public void actualizar(Alumno alumno);
 }
