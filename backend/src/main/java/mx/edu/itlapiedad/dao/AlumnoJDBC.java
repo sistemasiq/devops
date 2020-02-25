@@ -11,9 +11,11 @@ import mx.edu.itlapiedad.models.Alumno;
 @Repository
 public class AlumnoJDBC implements AlumnoDAO {
 
+	//Esta variable inyecta la conexión a la base de datos
 	@Autowired
 	JdbcTemplate conexion;
 	
+	//Esta variable se utiliza para guardar el código sql
 	String sql;
 	
 	@Override
