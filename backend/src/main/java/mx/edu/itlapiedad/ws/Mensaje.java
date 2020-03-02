@@ -60,6 +60,20 @@ public class Mensaje {
 	public void actualizarAlumno(@RequestBody Alumno alumno) {
 		repositorio.actualizar(alumno);
 	}
-	
+	@GetMapping("sumarNumeros/{operacion}/{num1}/{num2}")
+	  public float sumar_numeros(@PathVariable int operacion, @PathVariable float num1,@PathVariable float num2) {
+	  float total=0;
+	  
+	  if(operacion==1) {
+		  total=num1+num2;
+	  }else if(operacion==2){
+		  total=num1-num2;
+	  }else if(operacion==3){
+		  total=num1*num2;
+	  }else if(operacion==4){
+		  total=num1/num2;
+	  }
+		return total;
+	  }
 	
 }
