@@ -60,6 +60,6 @@ public class Mensaje {
 	public void actualizarAlumno(@RequestBody Alumno alumno) {
 		repositorio.actualizar(alumno);
 	}
-	
+	//ArribalaMaquina
 	
 }
