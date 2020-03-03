@@ -60,7 +60,9 @@ public class Mensaje {
 	public void actualizarAlumno(@RequestBody Alumno alumno) {
 		repositorio.actualizar(alumno);
 	}
-	//hola, vamos a reprobar
+	//hola, vamos a reprobar loser
+	
+	// chicalacticas
 	@GetMapping("sumarNumeros/{operacion}/{num1}/{num2}")
 	  public float sumar_numeros(@PathVariable int operacion, @PathVariable float num1,@PathVariable float num2) {
 	  float total=0;
