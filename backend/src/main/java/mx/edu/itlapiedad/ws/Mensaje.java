@@ -60,15 +60,11 @@ public class Mensaje {
 	public void actualizarAlumno(@RequestBody Alumno alumno) {
 		repositorio.actualizar(alumno);
 	}
-	//ArribalaMaquina
 	
-
-
 	// #ArribaLasPoderosas
 	@GetMapping("odiameMas/{num1}/{num2}")
 	public int calculadoraOp(@PathVariable int num1, @PathVariable int num2) {
 		int total= num1 + num2; 
 		return total;
 	}
-	
 }
