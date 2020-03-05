@@ -30,7 +30,7 @@ public class Mensaje {
 	@GetMapping("alumno")
 	public Alumno mostrarAlumno() {
 		Alumno alumno = new Alumno();
-		alumno.setNombre("Pacheco");
+		alumno.setNombre("Heribabylonia");
 		alumno.setNocontrol("16640121");
 		alumno.setCarrera_id(1);
 		return alumno;
@@ -62,7 +62,7 @@ public class Mensaje {
 	}
 	//hola, vamos a reprobar loser
 	
-	// Aveces la vida no e como nosotros creiamos
+	//Aveces la vida no e como nosotros creiamos
 	@GetMapping("sumarNumeros/{operacion}/{num1}/{num2}")
 	  public float sumar_numeros(@PathVariable int operacion, @PathVariable float num1,@PathVariable float num2) {
 	  float total=0;
