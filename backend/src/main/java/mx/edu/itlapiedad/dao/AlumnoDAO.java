@@ -8,5 +8,6 @@ public interface AlumnoDAO {
 	public void insertar(Alumno alumno);
 	public Alumno buscar(int id);
 	public void eliminar(int id);
+	//
 	public void actualizar(Alumno alumno);
 }
