@@ -30,7 +30,7 @@ public class Mensaje {
 	@GetMapping("alumno")
 	public Alumno mostrarAlumno() {
 		Alumno alumno = new Alumno();
-		alumno.setNombre("Pacheco");
+		alumno.setNombre("Carmen");
 		alumno.setNocontrol("16640121");
 		alumno.setCarrera_id(1);
 		return alumno;
