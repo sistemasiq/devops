@@ -24,7 +24,7 @@ public class Mensaje {
 	
 	@GetMapping("servicio")
 	public String enviarSaludo() {
-		return "Hola Github Actions desde Devops";
+		return "Hola Github Actions desde Devops 2022";
 	}
 	
 	@GetMapping("alumno")
